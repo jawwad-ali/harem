@@ -65,8 +65,8 @@ const Login = () => {
 
           <div className="flex flex-col justify-center items-center mt-10">
             <div className="flex justify-between w-[225px]">
-              {thirdPartyIcons.map((auth) => (
-                <button className="bg-black flex items-center justify-center w-12 h-10 rounded-xl">
+              {thirdPartyIcons.map((auth,idx) => (
+                <button className="bg-black flex items-center justify-center w-12 h-10 rounded-xl"key={idx}>
                   <Image src={auth} alt="Sign In" className="h-6 w-6" />
                 </button>
               ))}
