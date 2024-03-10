@@ -15,13 +15,13 @@ const thirdPartyIcons = [
 
 const Login = () => {
   return (
-    <div className="relative">
+    <div className="relative login-cover">
       {/* Background Image */}
-      <Image
+      {/* <Image
         className="object-cover w-screen h-screen"
         src={LoginCover}
-        alt="Login Cover"
-      />
+        alt="Login Cover" 
+      /> */}
 
       {/* Sidebar */}
       <div className="absolute top-0 left-0 w-[510px] h-screen bg-[#111727] bg-opacity-90">
@@ -73,8 +73,8 @@ const Login = () => {
             </div>
             {/* Register Button */}
             <a href="#">
-              <button className="text-white bg-[#43B581] font-bold text-4xl rounded-sm px-6 py-3 mt-7">
-                Register Now
+              <button className="text-white bg-[#43B581] font-bold text-3xl rounded-sm px-20 py-3 mt-7">
+                Register
               </button>
             </a>
           </div>
